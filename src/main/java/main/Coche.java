@@ -85,5 +85,9 @@ public class Coche {
     public void derrape(){
         System.out.println("Derrapando");
     }
+    
+    public void mostrarMatricula(){
+        System.out.println(this.matricula);
+    }
 
 }
