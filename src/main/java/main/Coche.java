@@ -48,5 +48,10 @@ public class Coche {
     public void setVelocidadMaxima(int velocidadMaxima) {
         this.velocidadMaxima = velocidadMaxima;
     }
+    
+    public void acelerar(){
+        velocidadMaxima = velocidadMaxima + 50;
+        System.out.println("Brrruuuuuummmmmm");
+    }
 
 }
