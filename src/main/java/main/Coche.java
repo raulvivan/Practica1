@@ -9,12 +9,12 @@ public class Coche {
 
     private int velocidad;
 
-    public Coche(String marca, String modelo, String color, int velocidadMaxima) {
+    public Coche(String marca, String modelo, String color, int velocidad) {
         super();
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
-        this.velocidad = velocidadMaxima;
+        this.velocidad = velocidad;
     }
 
     public String getMarca() {
