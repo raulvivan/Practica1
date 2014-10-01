@@ -8,6 +8,10 @@ public class Coche {
     private String color;
 
     private int velocidad;
+    
+    private int aceleracion;
+    
+    private String matricula;
 
     public Coche(String marca, String modelo, String color, int velocidad) {
         super();
