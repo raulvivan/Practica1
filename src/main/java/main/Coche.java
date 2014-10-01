@@ -7,14 +7,14 @@ public class Coche {
 
     private String color;
 
-    private int velocidadMaxima;
+    private int velocidad;
 
     public Coche(String marca, String modelo, String color, int velocidadMaxima) {
         super();
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
-        this.velocidadMaxima = velocidadMaxima;
+        this.velocidad = velocidadMaxima;
     }
 
     public String getMarca() {
@@ -42,15 +42,15 @@ public class Coche {
     }
 
     public int getVelocidadMaxima() {
-        return velocidadMaxima;
+        return velocidad;
     }
 
     public void setVelocidadMaxima(int velocidadMaxima) {
-        this.velocidadMaxima = velocidadMaxima;
+        this.velocidad = velocidadMaxima;
     }
     
     public void acelerar(){
-        velocidadMaxima = velocidadMaxima + 50;
+        velocidad = velocidad + 50;
         System.out.println("Brrruuuuuummmmmm");
     }
 
