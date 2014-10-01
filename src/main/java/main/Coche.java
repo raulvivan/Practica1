@@ -52,5 +52,9 @@ public class Coche {
     public void frenar(){
         this.velocidadMaxima = 0;
     }
+    
+    public void derrape(){
+        System.out.println("Derrapando");
+    }
 
 }
