@@ -9,6 +9,14 @@ public class Coche {
 
     private int velocidadMaxima;
 
+    public Coche(String marca, String modelo, String color, int velocidadMaxima) {
+        super();
+        this.marca = marca;
+        this.modelo = modelo;
+        this.color = color;
+        this.velocidadMaxima = velocidadMaxima;
+    }
+
     public String getMarca() {
         return marca;
     }
