@@ -55,7 +55,7 @@ public class Coche {
     }
     
     public void frenar(){
-        this.velocidadMaxima = 0;
+        this.velocidad = 0;
     }
     
     public void derrape(){
