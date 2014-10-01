@@ -48,5 +48,9 @@ public class Coche {
     public void setVelocidadMaxima(int velocidadMaxima) {
         this.velocidadMaxima = velocidadMaxima;
     }
+    
+    public void frenar(){
+        this.velocidadMaxima = 0;
+    }
 
 }
