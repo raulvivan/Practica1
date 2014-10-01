@@ -56,6 +56,7 @@ public class Coche {
     
     public void frenar(){
         this.velocidad = 0;
+        System.out.println("Frenazo");
     }
     
     public void derrape(){
