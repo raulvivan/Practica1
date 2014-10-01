@@ -73,6 +73,7 @@ public class Coche {
     
     public void acelerar(){
         velocidad = velocidad + 50;
+        aceleracion = aceleracion + 5;
         System.out.println("Brrruuuuuummmmmm");
     }
     
