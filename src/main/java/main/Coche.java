@@ -8,6 +8,26 @@ public class Coche {
     private String color;
 
     private int velocidad;
+    
+    private int aceleracion;
+    
+    public int getAceleracion() {
+        return aceleracion;
+    }
+
+    public void setAceleracion(int aceleracion) {
+        this.aceleracion = aceleracion;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    private String matricula;
 
     public Coche(String marca, String modelo, String color, int velocidad) {
         super();
